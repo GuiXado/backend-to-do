@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",              // Define para qual versão do JavaScript o TypeScript irá compilar. ES2020 é moderno e compatível com Node.js atual.
+    "module": "commonjs",            // Define o sistema de módulos. 'commonjs' é o padrão usado pelo Node.js.
+    "outDir": "./dist",              // Pasta onde os arquivos JavaScript compilados serão salvos.
+    "rootDir": "./src",              // Pasta onde estão os arquivos TypeScript de origem.
+    "strict": true,                  // Ativa todas as verificações de tipo estritas, tornando o código mais seguro.
+    "esModuleInterop": true          // Permite importar módulos CommonJS usando sintaxe ES6 (import ... from ...).
+  }
+}
